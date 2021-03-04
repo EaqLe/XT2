@@ -9,8 +9,8 @@
 		<link type="text/css" href="styles/laptop.css" rel="stylesheet" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="https://use.typekit.net/awq8dww.css">
-		<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="scripts/my_scripts.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<script type="text/javascript" src="scripts/scripts.js" defer></script>
 	</head>
 	<body>
 	
@@ -23,9 +23,15 @@
   <h1 class="ITSI">Interplanetary Transport System Interface</h1>
 
 <div class="flex-container">
-  <div class="flex-item-left">1</div>
-  <div class="flex-item-middle">2</div>
-  <div class="flex-item-right">3</div>
+  <div class="flex-item-left">
+  		<canvas id="myDistance"></canvas>
+  </div>
+  <div class="flex-item-middle">
+		<canvas id="myFuel"></canvas>
+  </div>
+  <div class="flex-item-right">
+  		<canvas id="myGforce"></canvas>
+  </div>
 </div>
 	</body>
 </html>

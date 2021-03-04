@@ -2,9 +2,9 @@
   
 
 .flex-item-right, .flex-item-middle, .flex-item-left{
-  background-color: dodgerblue;
   padding: 10px;
-  flex: 33%;
+  flex: 0 0 auto;
+  width: 50%
 }
  
  .ITSI {
