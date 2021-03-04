@@ -1,7 +1,7 @@
-Chart.defaults.global.defaultFontColor = 'white';
-Chart.defaults.global.defaultFontFamily = 'font-family: din-condensed, sans-serif';
+Chart.defaults.global.defaultFontColor = 'white'; //zorgt ervoor dat alle tekst in de charts wit is 
+Chart.defaults.global.defaultFontFamily = 'font-family: din-condensed, sans-serif'; // zorgt ervoor dat alle tekst in de charts het font din-condensed heeft.
 
-var ctx = document.getElementById('myDistance').getContext('2d');
+var ctx = document.getElementById('myDistance').getContext('2d'); //hier wordt de chart voor de afgelegde afstand aangemaakt, data ingevuld etc
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
@@ -39,7 +39,7 @@ var myChart = new Chart(ctx, {
     }
 });
 
-var ctx = document.getElementById('myFuel').getContext('2d');
+var ctx = document.getElementById('myFuel').getContext('2d'); //hier wordt de chart voor de verbruikte brandstof aangemaakt, data ingevuld etc
 var myChart = new Chart(ctx, {
     type: 'pie',
     data: {
@@ -66,7 +66,7 @@ var myChart = new Chart(ctx, {
 });
 
 
-var ctx = document.getElementById('myGforce').getContext('2d');
+var ctx = document.getElementById('myGforce').getContext('2d'); //hier wordt de chart voor de geregistreerde gforces  aangemaakt, data ingevuld etc
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
